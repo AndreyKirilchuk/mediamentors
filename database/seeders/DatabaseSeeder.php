@@ -16,7 +16,7 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         admin_account::create([
-            'pass'=>123,
+            'pass'=>'pass',
             'token' =>'swogaqlHRvJg9?4k!KcgmTKmZ8jsGsi=sMksR4ikl0SfDp3LU!ELeGm3D2SHeZlulgUeP9neSPs1L-MurKYS4SaytSc7O8RxXj2MAp5Y3wpPZVmjn'
         ]);
     }
